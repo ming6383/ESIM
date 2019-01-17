@@ -1,0 +1,26 @@
+[preprocess]
+data_dir = "../data/dataset/snli_1.0"
+embeddings_file = "../data/embeddings/glove.840B.300d.txt"
+target_dir = "../data/preprocessed"
+
+[train]
+data_dir = "../data/preprocessed"
+train_file = "train_data.pkl"
+dev_file = "dev_data.pkl"
+test_file = "test_data.pkl"
+embeddings_file = "embeddings.pkl"
+
+[test]
+data_dir = "../data/preprocessed"
+train_file = "train_data.pkl"
+dev_file = "dev_data.pkl"
+test_file = "test_data.pkl"
+embeddings_file = "embeddings.pkl"
+model_file = "../data/checkpoints/best.pth.tar"
+embed_dim = 300
+hidden_size = 300
+batch_first = true
+dropout = 0.5
+num_classes = 3
+gpu = true
+batch_size = 32
