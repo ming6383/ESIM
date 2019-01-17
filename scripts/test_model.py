@@ -19,7 +19,7 @@ print("\t* Loading test data...")
 test_data = util.load_pickle(os.path.normpath(args["data_dir"]),args["test_file"])
 print("\t* Loading word embeddings...")
 embeddings = util.load_pickle(os.path.normpath(args["data_dir"]),args["embeddings_file"])
-
+embeddings = torch.Tensor(embeddings)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 model = myESIM(embeddings.shape[0],
