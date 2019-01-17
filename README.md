@@ -50,7 +50,7 @@ preprocess_data.py
 
 The *train_model.py* script can be used to train the ESIM model on some training data and validate it on some validation data.
 
-The script's usage is:
+The script's usage is the following:
 ```
 train_model.py
 ```
@@ -59,7 +59,7 @@ train_model.py
 
 The *test_model.py* script can be used to test the model on some test data.
 
-Its usage is:
+The script's usage is the following:
 ```
 test_model.py
 ```
