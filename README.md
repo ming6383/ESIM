@@ -27,7 +27,8 @@ DATA_DIR/
 	   |    |-- utils.py
 ### Data Preparation
 
-Download [FashionAI dataset](http://fashionai.alibaba.com/datasets/) and put files in such structure:
+Download the [SNLI](https://nlp.stanford.edu/projects/snli/) corpus and
+the [GloVe 840B 300d](https://nlp.stanford.edu/projects/glove/) embeddings and put files in such structure:
 
 	DATA_DIR/
 		   |-- wu_train/
