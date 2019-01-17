@@ -1,6 +1,5 @@
 import os
 import torch
-import pickle
 from fastNLP import Trainer
 from fastNLP import Tester
 from fastNLP import CrossEntropyLoss
