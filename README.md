@@ -1,15 +1,13 @@
 # ESIM
 
-Implementation of the ESIM model for natural language inference with fastNLP
-
 This repository contains an implementation with fastNLP of the sequential model presented in the paper "Enhanced LSTM for Natural Language Inference" by Chen et al. in 2016.
 
-### Data Preparation
+## Data Preparation
 
 Download the [SNLI](https://nlp.stanford.edu/projects/snli/) corpus and
 the [GloVe 840B 300d](https://nlp.stanford.edu/projects/glove/) embeddings and put files in such structure:
 
-	DATA_DIR/
+	     ESIM/
 		   |-- data/
 		   |    |-- checkpoints/
 		   |    |    |-- best.pth.tar
@@ -29,4 +27,3 @@ the [GloVe 840B 300d](https://nlp.stanford.edu/projects/glove/) embeddings and p
 		   |    |-- test_train.py
 		   |    |-- utils.py
 
-DATA\_DIR is the root path of the fashionAI Dataset.
