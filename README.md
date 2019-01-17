@@ -35,6 +35,7 @@ the [GloVe 840B 300d](https://nlp.stanford.edu/projects/glove/) embeddings and p
 		   |    |-- train_model.py
 		   |    |-- test_model.py
 		   |    |-- utils.py
+		   |-- README.md
 
 ## Preprocess_data
 
