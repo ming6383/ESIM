@@ -29,6 +29,7 @@ the [GloVe 840B 300d](https://nlp.stanford.edu/projects/glove/) embeddings and p
 		   |    |         |-- ...
 		   |    |-- embeddings/
 		   |    |    |-- glove.840B.300d.txt
+		   |    |-- config.json
 		   |-- scripts/
 		   |    |-- model.py
 		   |    |-- preprocess_data.py
