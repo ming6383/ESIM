@@ -1,6 +1,6 @@
 # ESIM
 
-This repository contains an implementation with fastNLP of the sequential model presented in the paper "Enhanced LSTM for Natural Language Inference" by Chen et al. in 2016.
+This repository contains an implementation with fastNLP of the sequential model presented in the paper [《Enhanced LSTM for Natural Language Inference》](https://arxiv.org/abs/1609.06038) by Chen et al. in 2016.
 
 ## Getting Started
 
